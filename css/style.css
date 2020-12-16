@@ -17,11 +17,16 @@ ul{
 	text-decoration-style: none;
 }
 .product-img{
-    width:25%;
+    width: 95%;
     height: auto;
 }
 .product-section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
+}
+.product-article{
+    width: 30%;
+    min-width:150px;
 }

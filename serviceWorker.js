@@ -1,13 +1,14 @@
-const cacheName = "pwa-first-v2"
+const cacheName = "pwa-first-v3"
 const filesToCache = [
     '/index.html',
+    '/manifest.json',
     '/js/main.js',
     '/about.html',
-    'blogg.html',
-    './images/chocolatesCoffee.jpg',
-    './images/wineChocolate.jpg',
-    '/images/chocolateBubbly.jpg'
-
+    '/blogg.html',
+    '/images/chocolatesCoffee.jpg',
+    '/images/wineChocolate.jpg',
+    '/images/chocolateBubbly.jpg',
+    '/css/style.css'
 ];
 
 self.addEventListener('install', function (e) {
