@@ -8,8 +8,7 @@ const filesToCache = [
     '/images/chocolatesCoffee.jpg',
     '/images/wineChocolate.jpg',
     '/images/chocolateBubbly.jpg',
-    '/css/style.css',
-    '/icons/icon640.png'
+    '/css/style.css'
 ];
 
 self.addEventListener('install', function (e) {
