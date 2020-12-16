@@ -1,0 +1,27 @@
+
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+
+.navbar{
+    background:#8080008a;
+    display: flex;
+}
+.navbar-item{
+    padding:5px;
+    list-style: none;
+
+}
+ul{
+    list-style: none;
+	text-decoration-style: none;
+}
+.product-img{
+    width:25%;
+    height: auto;
+}
+.product-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
