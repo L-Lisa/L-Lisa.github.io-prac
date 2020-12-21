@@ -16,22 +16,21 @@ window.onload  = () => {
 
 function forceUpdate() {
     alert('Force update');
-    // location.reload();
+    location.reload();
     location.href = location.href;
-    /*
+
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.getRegistrations().then(function (registrations) {
-        for (let registration of registrations) {
-            registration.update();
-            alert('Registration done');
-        }
-        console.log('Reload');
-        // location.reload();
-        location.href = location.href;
-        console.log('not Reload');
-    })  
-};
-*/
+            for (let registration of registrations) {
+                registration.update();
+                alert('Registration done');
+            }
+            console.log('Reload');
+            // location.reload();
+            location.href = location.href;
+            console.log('not Reload');
+        })
+    };
 };
 
 
