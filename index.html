@@ -24,7 +24,7 @@
   <body>
     <section>
       <ul class="navbar">
-        <li class="navbar-item"><a href="index.html">Hem</a></li>
+        <li class="navbar-item"><a href="index.html">Home</a></li>
         <li class="navbar-item"><a href="about.html">About</a></li>
         <li class="navbar-item"><a href="blogg.html">Blogg</a></li>
       </ul>
@@ -32,6 +32,10 @@
     <div class="container">
       <h1 class="title">PWA HOME</h1>
     </div>
+    <button onclick="forceUpdate()">Update</button>
+    <button onclick="checkNotification()">Checkstatus</button>
+    <button onclick="showNotification()">Send note</button>
+
     <section class="product-section">
       <article class="product-article">
         <img class="product-img" src="./images/chocolatesCoffee.jpg" />
@@ -55,6 +59,8 @@
       </article>
     </section>
     <script src="js/main.js"></script>
+    <script src="js/notification.js"></script>
+
     <!--   <script src="js/bulma.js"></script> -->
   </body>
 </html>

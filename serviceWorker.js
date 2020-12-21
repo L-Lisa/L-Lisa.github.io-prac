@@ -27,3 +27,4 @@ self.addEventListener('fetch', function (e) {
 })
 // Den cachar filerna som angets, service worker mellanlagrar allting utan, den hämtar ifrån cashe först, 'install' körs varje gång appen startar
 
+//Testa googles workbox för att skriva med WORKBOX
